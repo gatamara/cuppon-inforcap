@@ -22,8 +22,8 @@ body{
 }
 .card-body {
     display: flex; 
-    flex-direction: column; /* para el resposive, se ajuste el contenido de la card aunque tenga menos texto */
-    justify-content: space-between; /* para el resposive, se ajuste el contenido de la card aunque tenga menos texto */
+    flex-direction: column;
+    justify-content: space-between; 
 }
 
 .card-body p{
@@ -62,10 +62,7 @@ body{
     font-weight: 500;
     padding-left: 8px;
 }
-/* #section-form{
-    display: flex;
-    justify-content: center;
-} */
+
 #form{
     /* background-color: #28A745 !important; */
     max-width: 500px;
