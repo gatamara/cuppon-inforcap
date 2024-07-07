@@ -1,0 +1,96 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+#navbar{
+    /* background-color: var(--bs-success); */
+    height: 62px ;
+}
+.navbar-brand{
+    font-weight: 500;
+}
+.card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.card-body {
+    display: flex; 
+    flex-direction: column; /* para el resposive, se ajuste el contenido de la card aunque tenga menos texto */
+    justify-content: space-between; /* para el resposive, se ajuste el contenido de la card aunque tenga menos texto */
+}
+
+.card-body p{
+    color: #707070;
+}
+.card-body p i{
+    font-size: 13pt ;  
+}
+.card-title{
+    font-weight: 300;
+    font-size: 20pt;
+    color: #212529;
+}
+.card-detail-name{
+    font-weight: 300;
+    font-size: 16pt;
+    margin: 0;
+}
+.card-detail-adress{
+    font-weight: 300;
+    font-size: 13pt;
+    margin: 0;
+}
+.card-footer{
+    background-color: #fff !important;
+    flex-shrink: 0;
+}
+.price{
+    color: #707070;
+    font-size: 16pt;
+    font-weight: 300;
+}
+.price-dscto{
+    /* color: #28A745; */
+    font-size: 20pt;
+    font-weight: 500;
+    padding-left: 8px;
+}
+/* #section-form{
+    display: flex;
+    justify-content: center;
+} */
+#form{
+    /* background-color: #28A745 !important; */
+    max-width: 500px;
+    margin: 0;
+    color: #707070;
+    
+    
+}
+#form h1{
+    color:#fff ;
+    font-size: 21pt;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+
+}
+footer{
+    height: 118px;
+    text-align: center;
+    color: #707070;
+}
+
+.btn-custom{
+    width: 112px;
+    height: 40px;
+    font-weight: 500 !important ;
+    color: #212529 !important;
+}
