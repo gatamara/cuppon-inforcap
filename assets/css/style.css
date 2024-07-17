@@ -7,10 +7,6 @@ body{
     font-family: "Roboto", sans-serif;
 }
 
-#navbar{
-    /* background-color: var(--bs-success); */
-    height: 62px ;
-}
 .navbar-brand{
     font-weight: 500;
 }
