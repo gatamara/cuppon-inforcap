@@ -56,14 +56,13 @@ body{
     font-weight: 300;
 }
 .price-dscto{
-    /* color: #28A745; */
     font-size: 20pt;
     font-weight: 500;
     padding-left: 8px;
 }
 
 #form{
-    /* background-color: #28A745 !important; */
+    /* background-color: #28A745  se utilizo success*/
     max-width: 500px;
     margin: 0;
     color: #707070;
